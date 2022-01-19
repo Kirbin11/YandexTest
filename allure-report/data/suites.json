@@ -1,0 +1,136 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "YandexTest",
+    "children" : [ {
+      "name" : "MainTest",
+      "children" : [ {
+        "name" : "MainClassTest",
+        "children" : [ {
+          "name" : "setUp",
+          "uid" : "4961782279c77a33",
+          "parentUid" : "d0e1a81f2fa942d8e1180e991126d15f",
+          "status" : "broken",
+          "time" : {
+            "start" : 1642601099799,
+            "stop" : 1642601099803,
+            "duration" : 4
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 1,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "TestMainPageOpened",
+          "uid" : "d6e52d22dda2240a",
+          "parentUid" : "d0e1a81f2fa942d8e1180e991126d15f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642601912619,
+            "stop" : 1642601914074,
+            "duration" : 1455
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 2,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "TestSearchCompleted",
+          "uid" : "c3a65c88b351e2f4",
+          "parentUid" : "d0e1a81f2fa942d8e1180e991126d15f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642601914239,
+            "stop" : 1642601928132,
+            "duration" : 13893
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 2,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "TestResultsHaveProduct",
+          "uid" : "9c2713e362936a1f",
+          "parentUid" : "d0e1a81f2fa942d8e1180e991126d15f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642601928140,
+            "stop" : 1642601933344,
+            "duration" : 5204
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 2,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "TestSortingCompleted",
+          "uid" : "91a64359f96b3b8a",
+          "parentUid" : "d0e1a81f2fa942d8e1180e991126d15f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642601933348,
+            "stop" : 1642601942800,
+            "duration" : 9452
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 2,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "TestItemPageOpened",
+          "uid" : "1cb71fbca25441c9",
+          "parentUid" : "d0e1a81f2fa942d8e1180e991126d15f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642601942807,
+            "stop" : 1642601952705,
+            "duration" : 9898
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 2,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "TestItemHaveData",
+          "uid" : "e804cee46bc76d39",
+          "parentUid" : "d0e1a81f2fa942d8e1180e991126d15f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642601952719,
+            "stop" : 1642601953705,
+            "duration" : 986
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 2,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d0e1a81f2fa942d8e1180e991126d15f"
+      } ],
+      "uid" : "4fe14ef3e35a37c2816d8659f85afe32"
+    } ],
+    "uid" : "7a4ff8b5d34a0dc500b72dd4272cb796"
+  } ]
+}

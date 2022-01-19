@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<test-data>
+    <properties>
+        <driver-name>webdriver.gecko.driver</driver-name>
+        <driver-location>geckodriver.exe</driver-location>
+    </properties>
+    <address>https://market.yandex.ru</address>
+    <query>Iphone 11</query>
+    <market-title>Яндекс.Маркет — покупки с быстрой доставкой</market-title>
+</test-data>

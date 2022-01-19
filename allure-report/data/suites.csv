@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jan 19 17:19:12 MSK 2022","Wed Jan 19 17:19:13 MSK 2022","986","YandexTest","MainTest","MainClassTest","MainClassTest","TestItemHaveData","TestItemHaveData",""
+"passed","Wed Jan 19 17:18:53 MSK 2022","Wed Jan 19 17:19:02 MSK 2022","9452","YandexTest","MainTest","MainClassTest","MainClassTest","TestSortingCompleted","TestSortingCompleted",""
+"broken","Wed Jan 19 17:04:59 MSK 2022","Wed Jan 19 17:04:59 MSK 2022","4","YandexTest","MainTest","MainClassTest","MainClassTest","setUp","setUp",""
+"passed","Wed Jan 19 17:18:48 MSK 2022","Wed Jan 19 17:18:53 MSK 2022","5204","YandexTest","MainTest","MainClassTest","MainClassTest","TestResultsHaveProduct","TestResultsHaveProduct",""
+"passed","Wed Jan 19 17:19:02 MSK 2022","Wed Jan 19 17:19:12 MSK 2022","9898","YandexTest","MainTest","MainClassTest","MainClassTest","TestItemPageOpened","TestItemPageOpened",""
+"passed","Wed Jan 19 17:18:32 MSK 2022","Wed Jan 19 17:18:34 MSK 2022","1455","YandexTest","MainTest","MainClassTest","MainClassTest","TestMainPageOpened","TestMainPageOpened",""
+"passed","Wed Jan 19 17:18:34 MSK 2022","Wed Jan 19 17:18:48 MSK 2022","13893","YandexTest","MainTest","MainClassTest","MainClassTest","TestSearchCompleted","TestSearchCompleted",""
