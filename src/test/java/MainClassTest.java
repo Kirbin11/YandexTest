@@ -13,7 +13,7 @@ import java.util.Locale;
 
 /**
  * Основной класс тестов. Всего проходит 6 тестов. Открывается страница магазина, ищется товар, сортируются результаты
- * открывается страница первого товара, выводится в консоль магазин и цена.
+ * открывается страница первого товара, выводится в консоль магазин и цена. Во время тестов делаются скриншоты
  */
 public class MainClassTest {
     /** Объект, содержащий входные данные */
@@ -62,7 +62,7 @@ public class MainClassTest {
         Assert.assertNotNull(searchField);
         Assert.assertNotNull(searchButton);
         try {
-            TestData.takeSnapShot(driver, "/screenshots/MainPageOpened.png");
+            TestData.takeSnapShot(driver, "G:\\WORK\\autotest\\screenshots\\MainPageOpened.png");
         } catch (Exception e){
             e.printStackTrace();
         }
@@ -77,7 +77,7 @@ public class MainClassTest {
 
         Assert.assertTrue(results.size() > 0);
         try {
-            TestData.takeSnapShot(driver, "/screenshots/SearchCompleted.png");
+            TestData.takeSnapShot(driver, "G:\\WORK\\autotest\\screenshots\\SearchCompleted.png");
         } catch (Exception e){
             e.printStackTrace();
         }
@@ -113,7 +113,7 @@ public class MainClassTest {
 
         Assert.assertTrue(sorted);
         try {
-            TestData.takeSnapShot(driver, "/screenshots/SortingCompleted.png");
+            TestData.takeSnapShot(driver, "G:\\WORK\\autotest\\screenshots\\SortingCompleted.png");
         } catch (Exception e){
             e.printStackTrace();
         }
@@ -131,7 +131,7 @@ public class MainClassTest {
         String title = itemPage.getTitle();
         Assert.assertTrue(title.toLowerCase(Locale.ROOT).contains(itemTitle.toLowerCase(Locale.ROOT)));
         try {
-            TestData.takeSnapShot(driver, "/screenshots/ItemPageOpened.png");
+            TestData.takeSnapShot(driver, "G:\\WORK\\autotest\\screenshots\\ItemPageOpened.png");
         } catch (Exception e){
             e.printStackTrace();
         }
